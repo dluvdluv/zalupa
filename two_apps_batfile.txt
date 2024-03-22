@@ -1,0 +1,5 @@
+batch
+@echo off
+start /wait your_first_batch_file.bat
+timeout /t 1
+start "" "C:\Path\to\Your\ApplicationShortcut.lnk"
